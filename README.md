@@ -1,0 +1,5 @@
+In my program I first organize the initial data the client recieves to make sure that it is correct, to default the port if necessary, and to possibly throw an error if bad data is recieved. I then use the socket and use a boolean varaible to either use TLS encyption or not if it is necessary. I then recieve the FIND statements, spit up the message into the needed variables, count how many intances there are of the given character, and send back the needed COUNT statement. At the end I print the given flag and close the socket. 
+
+I found it challenging to research and learn how to use sockets, but through python doc pages, the supplied links on piazza, and help from TAs I was able to understand the new concept and correctly use sockets. 
+
+I tested my code primarily by using print statements in many places to check that I was correctly computing things. One such example is I would print out the FIND statements I was sent to make sure that I was seperating them into values correctly. I would also print the number of instances of the particulat character in the FIND statments to make sure it was correct. 
